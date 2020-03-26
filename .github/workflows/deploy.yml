@@ -17,11 +17,11 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
-    - name: Set up gems
+    - name: Install Gems and Configure Dependencies
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-    - name: Deploy site
+    - name: Deploy Static Files to gh-pages Branch
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
