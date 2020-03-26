@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/workflows-jekyll/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/workflows-jekyll/" rel="alternate" type="text/html" /><updated>2020-03-26T23:04:27+07:00</updated><id>http://localhost:4000/workflows-jekyll/feed.xml</id><title type="html">Your mission. Good Luck!</title><subtitle>Embrace, extend, and extinguish: Open Source with Daily Genuine Experience. From Coding, Design, Package Management Tweak to Desktop Customization.</subtitle><entry><title type="html">White Zombie - More Human Than Human</title><link href="http://localhost:4000/workflows-jekyll/lyric/2019/07/15/white-zombie-more-human-than-human.html" rel="alternate" type="text/html" title="White Zombie - More Human Than Human" /><published>2019-07-15T07:35:05+07:00</published><updated>2019-07-15T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2019/07/15/white-zombie-more-human-than-human</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2019/07/15/white-zombie-more-human-than-human.html">&lt;p&gt;Yeah I am the nexus one I want more life&lt;/p&gt;
+
+&lt;p&gt;I am the jigsaw man&lt;br /&gt;
+I turn the world around with a skeleton hand&lt;/p&gt;
+
+&lt;p&gt;Into a psychic war I tear my soul apart&lt;br /&gt;
+And I eat it some more&lt;/p&gt;</content><author><name>epsi</name></author><category term="industrial metal" /><category term="90s" /><summary type="html">Yeah I am the nexus one I want more life</summary></entry><entry><title type="html">Disturbed - Stupify</title><link href="http://localhost:4000/workflows-jekyll/lyric/2018/09/13/disturbed-stupify.html" rel="alternate" type="text/html" title="Disturbed - Stupify" /><published>2018-09-13T07:35:05+07:00</published><updated>2018-09-13T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2018/09/13/disturbed-stupify</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2018/09/13/disturbed-stupify.html">&lt;p&gt;Look in my face, stare in my soul&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;advertisement&quot; src=&quot;/workflows-jekyll/assets/images/adverts/oto-spies-01.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Why, do you like playing around with&lt;br /&gt;
+My, narrow scope of reality&lt;br /&gt;
+I, can feel it all start slipping&lt;br /&gt;
+I think I’m breaking down&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;advertisement&quot; src=&quot;/workflows-jekyll/assets/images/adverts/oto-spies-02.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Look in my face, stare into my soul&lt;br /&gt;
+I begin to stupify&lt;/p&gt;</content><author><name>epsi</name></author><category term="nu metal" /><category term="2000s" /><summary type="html">Look in my face, stare in my soul</summary></entry><entry><title type="html">Soulfly - Jump Da Fuck Up</title><link href="http://localhost:4000/workflows-jekyll/lyric/2018/09/07/soulfly-jump-da-fuck-up.html" rel="alternate" type="text/html" title="Soulfly - Jump Da Fuck Up" /><published>2018-09-07T07:35:05+07:00</published><updated>2018-09-07T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2018/09/07/soulfly-jump-da-fuck-up</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2018/09/07/soulfly-jump-da-fuck-up.html">&lt;p&gt;You seem to sever all my frequencies&lt;br /&gt;
+I’m tethered to your energies&lt;/p&gt;
+
+&lt;p&gt;And everything turns inside out&lt;br /&gt;
+I can’t be killed but I’m not too proud&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span class=&quot;c1&quot;&gt;-- Layout Hook&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;commonLayout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;renamed&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Replace&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;common&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;avoidStruts&lt;/span&gt; 
+    &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gaps&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; 
+    &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spacing&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Tall&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;All this is making things a bit insane&lt;br /&gt;
+And I don’t care who stares or stays&lt;br /&gt;
+The only thing that matters is&lt;br /&gt;
+Will you reach out if you can’t resist?&lt;/p&gt;</content><author><name>epsi</name></author><category term="nu metal" /><category term="2000s" /><summary type="html">You seem to sever all my frequencies I’m tethered to your energies</summary></entry><entry><title type="html">RATM - Bulls on Parade</title><link href="http://localhost:4000/workflows-jekyll/lyric/2018/02/15/ratm-bulls-on-parade.html" rel="alternate" type="text/html" title="RATM - Bulls on Parade" /><published>2018-02-15T07:35:05+07:00</published><updated>2018-02-15T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2018/02/15/ratm-bulls-on-parade</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2018/02/15/ratm-bulls-on-parade.html">&lt;p&gt;Weapons, not food, not homes, not shoes&lt;br /&gt;
+Not need, just feed the war cannibal animal&lt;/p&gt;
+
+&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;example-content&quot;&gt;Example Content&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/epsi-rns/dotfiles/tree/master/terminal/&quot;&gt;Terminal Dofiles&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;While arms warehouses fill as quick as the cells&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rally round tha family, pocket full of shells&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cards/one-page.png&quot; alt=&quot;Business Card&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;example-dotfiles&quot;&gt;Example Dotfiles&lt;/h3&gt;
+
+&lt;p&gt;ViM RC: &lt;a href=&quot;https://gitlab.com/epsi-rns/dotfiles/tree/master/terminal/vimrc/vimrc.bandithijo&quot;&gt;bandithijo&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;whats-next-&quot;&gt;What’s next ?&lt;/h3&gt;
+
+&lt;p&gt;Our next song would be &lt;a href=&quot;/lyric/2018/09/07/soulfly-jump-da-fuck-up.html&quot;&gt;Soulfly - Jump Da Fuck Up&lt;/a&gt;&lt;/p&gt;</content><author><name>epsi</name></author><category term="nu metal" /><category term="90s" /><summary type="html">Weapons, not food, not homes, not shoes Not need, just feed the war cannibal animal</summary></entry><entry><title type="html">House of Pain - Jump Around</title><link href="http://localhost:4000/workflows-jekyll/lyric/2018/01/15/house-of-pain-jump-around.html" rel="alternate" type="text/html" title="House of Pain - Jump Around" /><published>2018-01-15T07:35:05+07:00</published><updated>2018-01-15T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2018/01/15/house-of-pain-jump-around</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2018/01/15/house-of-pain-jump-around.html">&lt;p&gt;Pack it up, pack it in, let me begin&lt;br /&gt;
+I came to win, battle me that’s a sin&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim\limits_{x \to \infty} \exp(-x) = 0&lt;/script&gt;
+
+&lt;p&gt;Get up, stand up (c’mon!) see’mon throw your hands up&lt;br /&gt;
+If you’ve got the feeling, jump across the ceiling&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x&lt;/script&gt;
+
+&lt;p&gt;Feelin’, funkin’, amps in the trunk and I got more rhymes&lt;/p&gt;</content><author><name>epsi</name></author><category term="hip hop" /><category term="90s" /><summary type="html">Get up, stand up (c'mon!) see'mon throw your hands up</summary></entry><entry><title type="html">Every Day</title><link href="http://localhost:4000/workflows-jekyll/movie/2015/10/03/every-day.html" rel="alternate" type="text/html" title="Every Day" /><published>2015-10-03T08:08:15+07:00</published><updated>2015-10-03T08:08:15+07:00</updated><id>http://localhost:4000/workflows-jekyll/movie/2015/10/03/every-day</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/movie/2015/10/03/every-day.html">&lt;p&gt;I’ve been thinking about this&lt;br /&gt;
+over and over and over.&lt;/p&gt;
+
+&lt;p&gt;I mean, really, truly,&lt;br /&gt;
+imagine it.&lt;/p&gt;
+
+&lt;p&gt;What does that&lt;br /&gt;
+look like in a year?&lt;br /&gt;
+In 10 years?&lt;/p&gt;
+
+&lt;p&gt;What will happen&lt;br /&gt;
+to your life?&lt;/p&gt;
+
+&lt;p&gt;How alone will it make you?&lt;/p&gt;
+
+&lt;p&gt;How much is that gonna cut you&lt;br /&gt;
+off from your family?&lt;/p&gt;
+
+&lt;p&gt;How much is that gonna cut you&lt;br /&gt;
+off from everyone you know?&lt;/p&gt;
+
+&lt;p&gt;How will it feel for you,&lt;br /&gt;
+almost entirely alone,&lt;br /&gt;
+and not be able to explain to anyone?&lt;/p&gt;</content><author><name>epsi</name></author><category term="subtitle" /><category term="story" /><summary type="html">I’ve been thinking about this over and over and over.</summary></entry><entry><title type="html">Marilyn Manson - Redeemer</title><link href="http://localhost:4000/workflows-jekyll/lyric/2015/07/25/marylin-manson-redeemer.html" rel="alternate" type="text/html" title="Marilyn Manson - Redeemer" /><published>2015-07-25T07:35:05+07:00</published><updated>2015-07-25T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2015/07/25/marylin-manson-redeemer</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2015/07/25/marylin-manson-redeemer.html">&lt;p&gt;Nothing seems exciting, always the same hiding
+It’s haunting me&lt;/p&gt;
+
+&lt;p&gt;They say I cannot be this, 
+I am jaded, hiding from the day
+I can’t bare, I cannot tame the hunger in me.&lt;/p&gt;</content><author><name>marylin</name></author><category term="industrial metal" /><category term="90s" /><summary type="html">Nothing seems exciting, always the same hiding It’s haunting me</summary></entry><entry><title type="html">Marilyn Manson - Sweet Dreams</title><link href="http://localhost:4000/workflows-jekyll/lyric/2015/07/15/eurythmics-sweet-dreams.html" rel="alternate" type="text/html" title="Marilyn Manson - Sweet Dreams" /><published>2015-07-15T07:35:05+07:00</published><updated>2015-07-15T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2015/07/15/eurythmics-sweet-dreams</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2015/07/15/eurythmics-sweet-dreams.html">&lt;p&gt;Sweet dreams are made of this&lt;br /&gt;
+Who am I to disagree?&lt;/p&gt;
+
+&lt;p&gt;Travel the world and the seven seas&lt;br /&gt;
+Everybody’s looking for something&lt;/p&gt;
+
+&lt;p&gt;Some of them want to use you&lt;br /&gt;
+Some of them want to get used by you&lt;br /&gt;
+Some of them want to abuse you&lt;br /&gt;
+Some of them want to be abused&lt;/p&gt;</content><author><name>marylin</name></author><category term="industrial metal" /><category term="90s" /><summary type="html">Sweet dreams are made of this Who am I to disagree?</summary></entry><entry><title type="html">Onyx - Slam</title><link href="http://localhost:4000/workflows-jekyll/lyric/2015/05/15/onyx-slam.html" rel="alternate" type="text/html" title="Onyx - Slam" /><published>2015-05-15T07:35:05+07:00</published><updated>2015-05-15T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2015/05/15/onyx-slam</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2015/05/15/onyx-slam.html">&lt;p&gt;Let the boys be boys&lt;br /&gt;
+Make noise b-boys&lt;/p&gt;
+
+&lt;p&gt;You forgot, you’re not ready,&lt;br /&gt;
+your head could get ruptured&lt;/p&gt;
+
+&lt;p&gt;Excuse me, for example&lt;br /&gt;
+I’m an inspiration of a whole generation&lt;/p&gt;</content><author><name>onyx</name></author><category term="hip hop" /><category term="90s" /><summary type="html">Let the boys be boys Make noise b-boys</summary></entry><entry><title type="html">Deftones - Be Quiet and Drive</title><link href="http://localhost:4000/workflows-jekyll/lyric/2015/03/25/deftones-be-quiet-and-drive.html" rel="alternate" type="text/html" title="Deftones - Be Quiet and Drive" /><published>2015-03-25T07:35:05+07:00</published><updated>2015-03-25T07:35:05+07:00</updated><id>http://localhost:4000/workflows-jekyll/lyric/2015/03/25/deftones-be-quiet-and-drive</id><content type="html" xml:base="http://localhost:4000/workflows-jekyll/lyric/2015/03/25/deftones-be-quiet-and-drive.html">&lt;p&gt;This town don’t feel mine&lt;br /&gt;
+I’m fast to get away, far&lt;/p&gt;
+
+&lt;p&gt;I dressed you in her clothes&lt;br /&gt;
+Now drive me far away, away, away&lt;/p&gt;
+
+&lt;div class=&quot;language-haskell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;-- Layout Hook&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;commonLayout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;renamed&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Replace&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;common&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;avoidStruts&lt;/span&gt; 
+    &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gaps&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; 
+    &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spacing&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Tall&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Just far away and I don’t care where&lt;br /&gt;
+Just far away I don’t care&lt;/p&gt;</content><author><name>epsi</name></author><category term="nu metal" /><category term="90s" /><summary type="html">This town don’t feel mine I’m fast to get away, far</summary></entry></feed>

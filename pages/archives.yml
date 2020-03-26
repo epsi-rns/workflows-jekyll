@@ -1,0 +1,76 @@
+# Helper for related links
+
+# just copy the result manually
+# from _site/pages/archives.yml 
+# to folder _data/archives.yml
+
+
+- id: 19071535
+  title: "White Zombie - More Human Than Human"
+  url: /lyric/2019/07/15/white-zombie-more-human-than-human.html
+
+- id: 18091335
+  title: "Disturbed - Stupify"
+  url: /lyric/2018/09/13/disturbed-stupify.html
+
+- id: 18090735
+  title: "Soulfly - Jump Da Fuck Up"
+  url: /lyric/2018/09/07/soulfly-jump-da-fuck-up.html
+
+- id: 18021535
+  title: "RATM - Bulls on Parade"
+  url: /lyric/2018/02/15/ratm-bulls-on-parade.html
+
+- id: 18011535
+  title: "House of Pain - Jump Around"
+  url: /lyric/2018/01/15/house-of-pain-jump-around.html
+
+- id: 15100308
+  title: "Every Day"
+  url: /movie/2015/10/03/every-day.html
+
+- id: 15072535
+  title: "Marilyn Manson - Redeemer"
+  url: /lyric/2015/07/25/marylin-manson-redeemer.html
+
+- id: 15071535
+  title: "Marilyn Manson - Sweet Dreams"
+  url: /lyric/2015/07/15/eurythmics-sweet-dreams.html
+
+- id: 15051535
+  title: "Onyx - Slam"
+  url: /lyric/2015/05/15/onyx-slam.html
+
+- id: 15032535
+  title: "Deftones - Be Quiet and Drive"
+  url: /lyric/2015/03/25/deftones-be-quiet-and-drive.html
+
+- id: 15010135
+  title: "Scott Pilgrim vs The World"
+  url: /movie/2015/01/01/scott-pilgrim.html
+
+- id: 15010135
+  title: "Jerry Maguire"
+  url: /movie/2015/01/01/jerry-maguire.html
+
+- id: 15010108
+  title: "Fight Club"
+  url: /movie/2015/01/01/fight-club.html
+
+- id: 15010115
+  title: "Dead Poet Society"
+  url: /movie/2015/01/01/dead-poets-society.html
+
+- id: 14031535
+  title: "Soundgarden - Black Hole Sun"
+  url: /lyric/2014/03/15/soundgarden-black-hole-sun.html
+
+- id: 14011535
+  title: "Public Enemy - Bring The Noise"
+  url: /lyric/2014/01/15/public-enemy-bring-the-noise.html
+
+- id: 14010108
+  title: "Surviving White Winter"
+  url: /2014/01/01/winter.html
+
+
