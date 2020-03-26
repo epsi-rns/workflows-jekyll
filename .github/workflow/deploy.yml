@@ -1,0 +1,28 @@
+# https://didik.id/github-actions-untuk-mempublikasikan-situs-web-statis-dari-jekyll/
+
+name: Jekyll Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout to master
+      uses: actions/checkout@master
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: Set up gems
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+    - name: Deploy site
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        bundle exec rake site:publish
