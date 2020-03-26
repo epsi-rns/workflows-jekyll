@@ -1,0 +1,19 @@
+<nav class="pagination is-centered" 
+     role="navigation" aria-label="pagination">
+
+    <!-- Previous Page. -->
+    {% if page.previous %}
+      <a class="pagination-previous post-previous"
+         href="{{ page.previous.url | prepend: site.baseurl }}"
+         title="{{ page.previous.title }}">
+        <span class="fas fa-chevron-left"></span>&nbsp;&nbsp;</a>
+    {% endif %}
+
+    {% if page.next %}
+      <a class="pagination-next post-next"
+         href="{{ page.next.url | prepend: site.baseurl }}" 
+         title="{{ page.next.title }}">&nbsp;&nbsp;
+        <span class="fas fa-chevron-right"></span></a>
+    {% endif %}
+</nav>
+

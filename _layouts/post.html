@@ -1,0 +1,27 @@
+---
+layout: columns-double
+
+# override property
+color_main  : blue
+color_aside : teal
+
+# layout chuncks
+blog_header     : post/blog-header.html
+blog_footer     : post/blog-footer.html
+aside_content   : post/aside-content.html
+---
+
+{% if page.toc %}
+  {% include {{ page.toc }} %}
+{% endif %}
+
+{% comment %}
+  {% include service/google-adsense.html %}
+  <br/>
+{% endcomment %}
+
+{{ content }}
+
+<br/>
+{% include post/navigation.html %}
+

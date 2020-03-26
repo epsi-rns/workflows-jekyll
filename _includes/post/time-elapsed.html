@@ -1,0 +1,23 @@
+{% comment %}
+http://www.zachstronaut.com/posts/2009/01/20/php-relative-date-time-string.html
+
+https://timeago.org/
+That way the time ago is updated dynamically as time passes,
+as opposed to having to rebuild Jekyll every day.
+{% endcomment %}
+
+    <time datetime="{{ page.date | date_to_xmlschema }}" 
+          itemprop="datePublished">
+    <span class="timeago"
+          datetime="{{ page.date | date: "%Y-%m-%d %T" }}">
+    </span></time>
+    &nbsp; 
+
+    <script src="{{ site.baseurl }}/assets/js/timeago.min.js"></script>
+    <script type="text/javascript">
+      var timeagoInstance = timeago();
+      var nodes = document.querySelectorAll('.timeago');
+      timeagoInstance.render(nodes, 'en_US');
+      timeago.cancel();
+      timeago.cancel(nodes[0]);
+    </script>

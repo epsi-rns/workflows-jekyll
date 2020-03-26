@@ -1,0 +1,16 @@
+_site
+.sass-cache
+.jekyll-metadata
+*.swp
+*.swo
+Gemfile.lock
+
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*

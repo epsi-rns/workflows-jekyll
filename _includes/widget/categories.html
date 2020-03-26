@@ -1,0 +1,18 @@
+{% assign color = "cyan" %}
+
+{% capture widget_header %}
+  <strong>Categories</strong>
+  <span class="fa fa-folder is-pulled-right"></span>
+{% endcapture %}
+
+{% capture widget_body %}
+  {% for cat in site.categories %}
+    <a class="tag is-small is-dark
+              {{ color }} z-depth-1 hoverable p-b-5"
+       href="{{ site.baseurl }}/pages/category.html#{{ cat[0] | slugify }}">
+      {{ cat[0] }}&nbsp;<span class="fa fa-folder"></span>
+    </a>&nbsp;
+  {% endfor %} 
+{% endcapture %}
+
+{% include template/widget.html %}

@@ -1,0 +1,16 @@
+{% capture widget_header %}
+  <strong>Recent Posts</strong>
+  <span class="fa fa-newspaper is-pulled-right"></span>
+{% endcapture %}
+
+{% capture widget_body %}
+  <ul class="widget-list">
+    {% for post in site.posts limit:5 %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}"
+      >{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endcapture %}
+
+{% assign color = "red" %}
+{% include template/widget.html %}

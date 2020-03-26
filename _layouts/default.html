@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% include site/head.html %}
+</head>
+
+<body>
+  {% comment %}
+  {% include service/google-analytics.html %}
+  {% endcomment %}
+  <!-- header -->
+  {% include site/header.html %}
+
+  <!-- main -->
+  <div class="columns is-8 layout-base maxwidth">
+    {{ content }}
+  </div>
+
+  {% comment %}
+  <div class="white z-depth-3 hoverable maxwidth">
+    {% if site.comments %}
+    {% include service/disqus-comments.html %}
+    {% endif %}
+  </div>
+  {% endcomment %}
+
+  <!-- footer -->
+  {% include site/footer.html %}
+  {% include site/scripts.html %}
+</body>
+
+</html>
+

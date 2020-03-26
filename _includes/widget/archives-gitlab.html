@@ -1,0 +1,26 @@
+{% comment %}
+fake randomize by using year day for array under 365 data
+{% endcomment %}
+
+{% capture widget_header %}
+  <strong>Web/Mobile Development</strong>
+  <span class="fas fa-fingerprint is-pulled-right"></span>
+{% endcapture %}
+
+{% capture widget_body %}
+  {% assign length = 5 %}
+  {% assign archives =site.data.archives_gitlab %}
+  {% assign size_adjusted = archives | size | minus: length %}
+  {% assign start = page.date | date: "%j" | modulo: size_adjusted %}
+
+  <ul class="widget-list">
+    {% assign selection = archives | slice: start, length %}
+    {% for archive in selection %}
+    <li><a href="https://epsi-rns.gitlab.io{{ archive.url }}"
+      >{{ archive.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endcapture %}
+
+{% assign color = "lime" %}
+{% include template/widget.html %}

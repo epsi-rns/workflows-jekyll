@@ -1,0 +1,40 @@
+---
+layout      : index
+title       : Blog Posts
+
+# override property
+color_main  : brown
+
+pagination: 
+  enabled: true
+
+# custom frontmatter for pagination
+paginate_root   : /pages
+---
+
+{% include pagination-v2/06-screenreader.html %}
+
+{% assign posts = paginator.posts %}
+{% include index/blog-list.html %}
+
+{% comment %}
+
+v1: not developed anymore for years
+  {% include pagination-v1/01-simple.html %}
+  {% include pagination-v1/02-number.html %}
+  {% include pagination-v1/03-adjacent.html %}
+  {% include pagination-v1/04-indicator.html %}
+  {% include pagination-v1/05-responsive.html %}
+  {% include pagination-v1/06-screenreader.html %}
+
+v2: not supported by github pages (Without travis)
+  {% include pagination-v2/01-simple.html %}
+  {% include pagination-v2/02-number.html %}
+  {% include pagination-v2/03-adjacent.html %}
+  {% include pagination-v2/04-indicator.html %}
+  {% include pagination-v2/05-responsive.html %}
+  {% include pagination-v2/06-screenreader.html %}
+
+The choice is yours.
+
+{% endcomment %}
