@@ -13,7 +13,7 @@ description: >- # description below
   From Coding, Design, Package Management Tweak to Desktop Customization.
 
 # the subpath of your site, e.g. /blog
-baseurl: "/circleci-jekyll" 
+baseurl: "/workflows-jekyll" 
 
 # Missing timezone in metadata date can lead to wrong date in url
 timezone: Asia/Jakarta
